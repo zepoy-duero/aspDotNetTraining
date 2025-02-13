@@ -17,15 +17,6 @@ namespace SimpleCalculator.Controllers
         {
             return View();
         }
-
-        public IActionResult Privacy()
-        {
-            return View();
-        }
-        public IActionResult Calculator()
-        {
-            return View();
-        }
         [HttpPost]
         public ActionResult Calculate(string expression)
         {
